@@ -1,0 +1,86 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #242424;
+  }
+  
+
+  
+  .input-field {
+    margin-bottom: 100px;
+    
+    
+  }
+  .losh1 h1{
+    font-size: 4rem;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    
+  }
+  
+  
+  
+  .input-field input {
+    width: 70%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #cccccc; /* Color del borde */
+    transition: border-color 0.3s, background-color 0.3s; /* Agregado: Transición para color de borde y fondo */
+    background-color: #1a1a1a;
+    color: white;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 7rem;
+}
+
+.input-field input:focus {
+    border-color: #66afe9; /* Agregado: Cambia el color del borde al enfocar */
+    box-shadow: 0 0 5px #66afe9; /* Agregado: Agrega una sombra al enfocar */
+}
+
+  
+  .button {
+    background-color: #ffffff; /* Color de fondo del botón */
+    color: #000000; /* Color del texto del botón */
+    border: -5px solid transparent;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    top: 4rem;
+    width: 50%;
+    left: 11rem;
+  }
+  
+
+  
+  .error-message {
+    color: #ff6347; /* Color del mensaje de error */
+    font-size: 16px;
+    position: relative;
+    left: -26rem;
+    top: 5rem;
+  }
+
+  .regis{
+    color: #38B2AC;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.otro{
+    color: #ffffff;
+    position: relative;
+    left: 14rem;
+    top: 1rem;
+}
+  

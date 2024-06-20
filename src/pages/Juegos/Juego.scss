@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    position: relative;
+  }
+  
+  .list .listContainer {
+    flex: 6;
+    transition: margin-left 0.5s ease;
+  }
+  
+  .list .listContainer .navbar {
+    /* Estilos para la barra de navegación si es necesario */
+  }
+  
+  .list .listContainer .datatable {
+    /* Estilos para la tabla de datos si es necesario */
+  }
+  
+  /* Ajustar el margen cuando la barra lateral está activa */
+  .list.sidebar-active .listContainer {
+    margin-left: 300px; /* Ajusta este valor según tus necesidades */
+  }
+  
+  /* Ajustar el margen cuando la barra lateral no está activa */
+  .list .listContainer {
+    margin-left: 100px; /* Ajusta este valor según tus necesidades */
+  }
+  

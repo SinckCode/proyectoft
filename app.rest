@@ -1,0 +1,178 @@
+# Obtener todos los clientes
+GET http://localhost:3000/proveedores
+Content-Type: application/json
+
+###
+
+# Agregar un nuevo cliente y devolver el ID del registro agregado
+POST http://localhost:3000/ProveedoresInsert
+Content-Type: application/json
+
+{
+  "Nombre": "Nombre del proveedor",
+  "Dirección": "Dirección del proveedor",
+  "Teléfono": "123456789",
+  "Correo_Electrónico": "correo@proveedor.com",
+  "Persona_Contacto": "Persona de contacto del proveedor",
+  "Tipo_Producto": "Tipo de producto del proveedor"
+}
+
+###
+
+# Eliminar un cliente por su nombre
+POST http://localhost:3000/ClientesDelete
+Content-Type: application/json
+
+{
+  "valorEliminar": "Nombre del cliente"
+}
+
+###
+
+# Actualizar un cliente por su nombre
+POST http://localhost:3000/ClientesUpdate
+Content-Type: application/json
+
+{
+  "valorNuevo": "Nuevo nombre del cliente",
+  "valorAntiguo": "Nombre del cliente"
+}
+
+###
+
+# Obtener un cliente por su ID
+POST http://localhost:3000/clientesID
+Content-Type: application/json
+
+{
+  "id": "3"
+}
+
+###
+
+# Obtener un cliente por su Nombre
+POST http://localhost:3000/clientesNombre
+Content-Type: application/json
+
+{
+  "nombre": "Nombre del cliente"
+}
+
+
+#EMPLEADOS
+### Obtener todos los empleados
+GET http://localhost:3000/empleados
+Content-Type: application/json
+
+###
+
+# Agregar un nuevo empleado y devolver el ID del registro agregado
+POST http://localhost:3000/EmpleadosInsert
+Content-Type: application/json
+
+{
+  "Nombre": "Nombre del empleado",
+  "Area": "Área del empleado",
+  "Oficina": "Oficina del empleado"
+}
+
+###
+
+# Eliminar un empleado por su nombre
+POST http://localhost:3000/empleadosDelete
+Content-Type: application/json
+
+{
+  "valorEliminar": "Nombre del empleado"
+}
+
+###
+
+# Actualizar un empleado por su nombre
+POST http://localhost:3000/empleadosUpdate
+Content-Type: application/json
+
+{
+  "valorNuevo": "Nuevo nombre del empleado",
+  "valorAntiguo": "Nombre del empleado"
+}
+
+###
+
+# Obtener un empleado por su ID
+POST http://localhost:3000/empleadosID
+Content-Type: application/json
+
+{
+  "id": "3"
+}
+
+###
+
+# Obtener un empleado por su Nombre
+POST http://localhost:3000/empleadosNombre
+Content-Type: application/json
+
+{
+  "nombre": "Nombre del empleado"
+}
+
+###
+
+# Obtener todos los proveedores
+POST http://localhost:3000/proveedores
+Content-Type: application/json
+
+###
+
+# Agregar un nuevo proveedor y devolver el ID del registro agregado
+POST http://localhost:3000/proveedoresInsert
+Content-Type: application/json
+
+{
+  "Nombre": "Nombre del proveedor",
+  "Empresa": "Nombre de la empresa",
+  "Telefono": "123456789",
+  "Email": "correo@proveedor.com"
+}
+
+###
+
+# Eliminar un proveedor por su nombre
+POST http://localhost:3000/proveedoresDelete
+Content-Type: application/json
+
+{
+  "valorEliminar": "Nombre del proveedor"
+}
+
+###
+
+# Actualizar un proveedor por su nombre
+POST http://localhost:3000/proveedoresUpdate
+Content-Type: application/json
+
+{
+  "valorNuevo": "Nuevo nombre del proveedor",
+  "valorAntiguo": "Nombre del proveedor"
+}
+
+###
+
+# Obtener un proveedor por su ID
+POST http://localhost:3000/proveedoresID
+Content-Type: application/json
+
+{
+  "id": "3"
+}
+
+###
+
+# Obtener un proveedor por su Nombre
+POST http://localhost:3000/proveedoresNombre
+Content-Type: application/json
+
+{
+  "nombre": "Nombre del proveedor"
+}
